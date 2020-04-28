@@ -1,0 +1,150 @@
+*{
+	box-sizing:border-box;
+}
+hr{
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	border-color:black;
+}
+
+body{
+	background-color:#DAFEFF;
+}
+
+.navbar-brand{  /* Box Close to the brand name*/
+	position:relative;
+	height:100px;
+}
+#header-navigation{ /* Header box  */
+	background-color:#0DDFE3;
+	border: 2px solid #633807;
+	box-shadow: 1px 1px 1px #000;
+	margin-bottom: 100px;
+	border-radius: 0px 0px;
+}
+
+
+
+.navbar-header h1{ /*  Brand name*/
+	top:0;
+	left:0;
+	margin-top:5px;
+	width:220px;
+	font-size:2.5em;
+	position:absolute;
+	color:#FF6931;
+	text-shadow: 2px 2px 4px #000;
+}
+
+
+.navbar-header h1:hover h1:focus{
+	text-decoration: none;
+}
+
+#nav-list{
+	background-color:#DEFD1F;
+	padding:0px 0px 0px 0px;
+	margin-bottom:0px;
+	margin-top:0px;
+	opacity:.5;
+}	
+
+#nav-list a{
+	padding:5px 5px;
+	height:30px;
+	font-size:1.7em;
+	text-align:center;
+	color: #FF6931;
+	font-weight:600;
+	text-shadow:1px 1px 1px #000;
+}
+
+#nav-list li:hover{
+	background-color:#04701E;
+}
+
+#nav-list a:hover{
+	color:black;
+}
+
+#btn{
+	background-color: #052981;
+	border: 2px solid black;
+}
+
+#btn .icon-bar{
+	background-color:black;
+}
+
+
+/* END OF THE HEADER*/
+
+/* MAIN CONTENT*/
+
+#main-content-heading h2{
+	font-weight:bold;
+	font-size: 3em;
+	margin-bottom: 50px;
+}
+
+#menu-tile-chicken h3,#menu-tile-beef h3,#menu-tile-sushi h3{ /* Chichen/Beef/Sushi*/
+	font-size:2em;
+	font-weight:bold;
+	margin-top: 10px;
+	margin-bottom:35px;
+}
+
+#menu-tile-chicken,#menu-tile-beef,#menu-tile-sushi{ /* Item Box with descript. */
+	background-color: #D1E6E9;
+	border:2px solid black;
+	border-radius: 5px;
+	position:relative;
+}
+
+#menu-tile-chicken p,#menu-tile-beef p,#menu-tile-sushi p{ /* Text within the box*/
+	font-size: 1.2em;
+	margin:10px 10px;
+	line-height:2;
+}
+
+
+
+
+.container-fluid{
+	padding:5px 5px;
+}
+
+#menu-tile-chicken,#menu-tile-beef,#menu-tile-sushi{
+	margin-top:40px;
+	margin-right:15px;
+	margin-left:15px;
+	overflow: auto;
+}
+
+
+
+@media(min-width:1200px)
+{
+	#menu-tile-chicken,#menu-tile-beef,#menu-tile-sushi{
+		width:30%;
+		float:left;
+		margin-left:25px;
+	}
+}
+
+@media(min-width:768px) and (max-width:1199px)
+{
+	#menu-tile-chicken,#menu-tile-beef{
+		width:45%;
+		margin-left:30px;
+	}
+	#menu-tile-sushi{
+		width:95%;
+		margin-right:36px;
+		margin-left:35px;
+	}
+	
+	
+}
+
+
